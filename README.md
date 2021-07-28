@@ -1,6 +1,6 @@
 # Files 
 This repo is divided into three files:
-* get_data: collect all football games from [the official website of the Premier League](premierleague.com)
+* get_data: collect all football games from [the official website of the Premier League](https://www.premierleague.com/)
 * data_cleaning: can't be more explicit
 * eda: it's an exploratory data analysis that was, first, part of the data cleaning but as it was starting to be too long, I split the file in two.
 

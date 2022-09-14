@@ -19,4 +19,13 @@ This project is decomposed into three sections (i.e three jupyter notebooks):
 
 
 ## Notes 
-* To see the EDA.ipynb AND the different visualization, open [this html file](https://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/html_viz/eda.html)
+* I could make the charts interactive on github so the only way to play with them is to run the EDA notebook.
+
+
+## Some charts and their link for interactibility
+![Cleansheets_per_season_(at_leat_10)](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/image/Cleansheets_per_season_(at_leat_10).png)
+![Link for interactibility](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Cleansheets_per_season_(at_leat_10).html)
+
+
+
+

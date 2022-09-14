@@ -1,4 +1,4 @@
-![alt text](https://github.com/marclelamy/premier_league_analysis/blob/main/docs:image/PL30-board-ball-and-Trophy-at-PL-launch.webp)
+![alt text](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/PL30-board-ball-and-Trophy-at-PL-launch.webp)
 
 
 # Project Intro/Objective

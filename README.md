@@ -22,10 +22,38 @@ This project is decomposed into three sections (i.e three jupyter notebooks):
 * I could make the charts interactive on github so the only way to play with them is to run the EDA notebook.
 
 
-## Some charts and their link for interactibility
-![Cleansheets_per_season_(at_leat_10)](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/Cleansheets_per_season_(at_leat_10).png)
+## Top 10 nicest charts and their link for interactibility 
+If you don't wanna run EDA.ipynb
+
+
 [Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Cleansheets_per_season_(at_leat_10).html)
+![Cleansheets_per_season_(at_leat_10)](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/Cleansheets_per_season_(at_leat_10).png)
 
+[Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Distribution_of_events_over_the_minutes_of_the_games.html)
+![Distribution_of_events_over_the_minutes_of_the_games](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/Distribution_of_events_over_the_minutes_of_the_games.png)
 
+[Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Goals_vs_assists_per_season.html)
+![Goals_vs_assists_per_season](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/Goals_vs_assists_per_season.png)
+
+[Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Minutes_played_vs_goals_scores_vs_assists_vs_player's_position.html)
+![Minutes_played_vs_goals_scores_vs_assists_vs_player's_position](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/Minutes_played_vs_goals_scores_vs_assists_vs_player's_position.png)
+
+[Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Distribution_of_points_big_6_vs_other_teams_(in_%).html)
+![Distribution_of_points_big_6_vs_other_teams_(in_%)](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/Distribution_of_points_big_6_vs_other_teams_(in_%).png)
+
+[Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Number_of_time_each_team_has_finished_at_which_place_of_the_podium.html)
+![Number_of_time_each_team_has_finished_at_which_place_of_the_podium](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/Number_of_time_each_team_has_finished_at_which_place_of_the_podium.png)
+
+[Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Origin_of_the_players.html)
+![Origin_of_the_players](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/Origin_of_the_players.png)
+
+[Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Points_of_difference_with_the_team_ranked_after_itself.html)
+![Points_of_difference_with_the_team_ranked_after_itself](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/Points_of_difference_with_the_team_ranked_after_itself.png)
+
+[Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Ranking_of_the_Big_6_per_year.html)
+![Ranking_of_the_Big_6_per_year](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/Ranking_of_the_Big_6_per_year.png)
+
+[Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Ratio_Win,_Draw,_Lost_in_%_-_All_seasons_included.html)
+![Ratio_Win,_Draw,_Lost_in_%_-_All_seasons_included](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/Ratio_Win,_Draw,_Lost_in_%_-_All_seasons_included.png)
 
 

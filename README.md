@@ -1,5 +1,5 @@
-# Read me 
-This repo is about the Premier League analysis. I wanted to  understand more about the history of this League, collected all the data about the games, cleaned it, conducted an analysis and wrote an [article](https://medium.com/@croissantboy/an-analysis-of-the-greatest-football-on-earth-interactive-article-74a057a82862) about it.
+![alt text](https://github.com/marclelamy/premier_league_analysis/blob/main/docs:image/PL30-board-ball-and-Trophy-at-PL-launch.webp)
+
 
 This repo is divided into three files:
 * get_data: web scraping of all football games from [the official website of the Premier League](https://www.premierleague.com/)
@@ -7,86 +7,23 @@ This repo is divided into three files:
 * eda: it's an exploratory data analysis that was, first, part of the data cleaning but as it was starting to be too long, I split the file in two. Most of the work is in this notebook.
 
 
-![alt text](https://github.com/marclelamy/premier_league_analysis/blob/main/docs:image/PL30-board-ball-and-Trophy-at-PL-launch.webp)
 
 
+# Project Intro/Objective
+This repo is about the Premier League analysis. I wanted to  understand more about the history of this League and so collected all the data about the games and players, cleaned it, conducted an analysis and wrote an [article on Medium](https://medium.com/@croissantboy/an-analysis-of-the-greatest-football-on-earth-interactive-article-74a057a82862) about it.
 
-
-# Project Name
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
-
-#### -- Project Status: [Active, On-Hold, Completed]
-
-## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
-
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
-
-### Methods Used
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
-
-### Technologies
-* R 
-* Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+This project is decomposed into three sections (i.e three jupyter notebooks):
+* Data collection: this was the process of collecting all the data about the games, the players and all the event that happened in every game likes goals, red/yellow cards, substitution, etc... I used the official website of the Premier League as main data source and after navigating through it, I understood how the data was display and the best way of getting it:
+    * First, collect the ID of each season from a dropdown menu on the game pages
+    * Loop through each season page (https://www.premierleague.com/.../{season_id}) to collect each game id
+    * Loop through each game page (https://www.premierleague.com/.../{match_id}) to collect each game
+    * Luckily for me, the website stored the games data (with players info, events, and a ton of other infos) in a JSON format readable in the html. I just had to flatten the json to have tabular data that I splitted in multiple files (games, events, players)
 
-## Needs of this project
+* Data cleaning: There was way too much information in those JSONs so I removed some columns, reformatted others and overall just cleaned the data to have a suitable format for the analysis (EDA).
 
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
-
-## Getting Started
-
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
-
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+* Data Analysis & Visualization: analyzed the data to find some interesting facts about the league. Not all insights have a viz but here are some viz that you can also find in html_viz and enjoy the interactibility as they're all made with Plotly!  
 
 
-## Contributing DSWG Members
-
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
-
-#### Other Members:
-
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
-
-## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~marclelamy/68.embed"></iframe>

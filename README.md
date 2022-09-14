@@ -20,6 +20,7 @@ This project is decomposed into three sections (i.e three jupyter notebooks):
 
 ## Notes 
 * I could make the charts interactive on github so the only way to play with them is to run the EDA notebook.
+* The EDA has a lot of insights that dont have charts, go take a look!
 
 
 ## Top 10 nicest charts and their link for interactibility 

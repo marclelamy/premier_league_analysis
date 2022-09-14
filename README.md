@@ -1,14 +1,6 @@
 ![alt text](https://github.com/marclelamy/premier_league_analysis/blob/main/docs:image/PL30-board-ball-and-Trophy-at-PL-launch.webp)
 
 
-This repo is divided into three files:
-* get_data: web scraping of all football games from [the official website of the Premier League](https://www.premierleague.com/)
-* data_cleaning: can't be more explicit
-* eda: it's an exploratory data analysis that was, first, part of the data cleaning but as it was starting to be too long, I split the file in two. Most of the work is in this notebook.
-
-
-
-
 # Project Intro/Objective
 This repo is about the Premier League analysis. I wanted to  understand more about the history of this League and so collected all the data about the games and players, cleaned it, conducted an analysis and wrote an [article on Medium](https://medium.com/@croissantboy/an-analysis-of-the-greatest-football-on-earth-interactive-article-74a057a82862) about it.
 
@@ -26,4 +18,5 @@ This project is decomposed into three sections (i.e three jupyter notebooks):
 * Data Analysis & Visualization: analyzed the data to find some interesting facts about the league. Not all insights have a viz but here are some viz that you can also find in html_viz and enjoy the interactibility as they're all made with Plotly!  
 
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~marclelamy/68.embed"></iframe>
+## Notes 
+* To see the EDA.ipynb AND the different visualization, open [this html file](https://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/html_viz/eda.html)

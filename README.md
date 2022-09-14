@@ -50,7 +50,7 @@ If you don't wanna run EDA.ipynb, check the charts below or in [docs/images](htt
 [Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Ranking_of_the_Big_6_per_year.html)
 ![Ranking_of_the_Big_6_per_year](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/Ranking_of_the_Big_6_per_year.png)
 
-[Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Ratio_Win,_Draw,_Lost_in_%_-_All_seasons_included.html)
+[Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Ratio_Win_Draw_Lost_in_All_seasons_included.html)
 ![Ratio_Win,_Draw,_Lost_in_%_-_All_seasons_included](https://github.com/marclelamy/premier_league_analysis/blob/main/docs/images/Ratio_Win_Draw_Lost_in_All_seasons_included.png)
 
 [Link for interactibility](http://htmlpreview.github.io/?https://github.com/marclelamy/premier_league_analysis/blob/main/docs/html_viz/Cleansheets_per_season_(at_leat_10).html)

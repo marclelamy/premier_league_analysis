@@ -7,19 +7,18 @@ This repo is about the Premier League analysis. I wanted to understand more abou
 
 ## Project Description
 This project is decomposed into three sections (i.e three jupyter notebooks):
-* Data collection: this was the process of collecting all the data about the games, the players, and all the events that happened in every game like goals, red/yellow cards, substitution, etc... I used the official website of the Premier League as the main data source and after navigating through it, I understood how the data was displayed and the best way of getting it:
-    * First, collect the ID of each season from a dropdown menu on the game pages
-    * Loop through each season page (https://www.premierleague.com/.../{season_id}) to collect each game id
-    * Loop through each game page (https://www.premierleague.com/.../{match_id}) to collect each game
-    * Luckily for me, the website stored the game's data (with players info, events, and a ton of other infos) in a JSON format readable in the html. I just had to flatten the json to have tabular data that I splitted in multiple files (games, events, players)
+* Data collection: this was the process of collecting using webscraping, all the data about the games, the players, and all the events that happened in every game (goals, red/yellow cards, substitution, etc). I used the official website of the Premier League as the main data source and after navigating through it, I understood how the data was displayed and the best way of getting it:
+    * First, collect the ID of each season from a dropdown menu on the games' pages
+    * Loop through each season's page (https://www.premierleague.com/.../{season_id}) to collect each game id
+    * Loop through each game's page (https://www.premierleague.com/.../{match_id}) to collect each game's data. Luckily for me, the website stores the game's data (with a lot more data that I needed) in a JSON format readable in the html. I just had to flatten the json to have tabular data that I splitted in multiple files (games, events, players)
 
-* Data cleaning: There was way too much information in those JSONs so I removed some columns, reformatted others and overall just cleaned the data to have a suitable format for the analysis (EDA).
+* Data cleaning: There was way too much information in those JSONs so I removed some columns, reformatted others, dealed with missing values and generally cleaned the data to have a suitable format for the analysis (EDA).
 
-* Data Analysis & Visualization: analyzed the data to find some interesting facts about the league. Not all insights have a viz but here are some viz that you can also find in html_viz and enjoy the interactibility as they're all made with Plotly!  
+* Data Analysis & Visualization: Definitely the most exciting and sexy to read! I analyzed the data to find some interesting facts about the league. Not all insights have a viz but here are some viz where you can enjoy the interactibility as they're all made with Plotly!  
 
 
 ## Notes 
-* I could make the charts interactive on github so the only way to play with them is to run the EDA notebook.
+* I couldn't managed to make the charts of the EDA notebook interactive on github so the only way to play with them is to run the EDA notebook or to check out some below.
 * The EDA has a lot of insights that dont have charts, go take a look!
 
 
